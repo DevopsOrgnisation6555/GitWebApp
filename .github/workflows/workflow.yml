@@ -18,5 +18,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/ruturajkolekar56/MyProject
-            azure-pipeline-name: 'DevopsOrgnisation6555.GitWebApp'
+            azure-pipeline-name: 'WebApplication2'
             azure-devops-token: ${{ secrets.AZURE_TOKEN }}
