@@ -1,4 +1,4 @@
-﻿name: PipelineWorkflow
+﻿name: workflowPipeline
 
 # Run this workflow every time a commit gets pushed to main or a pull request gets opened against main
 on:
@@ -19,4 +19,4 @@ jobs:
           with:
             azure-devops-project-url: https://dev.azure.com/ruturajkolekar56/MyProject
             azure-pipeline-name: 'DevopsOrgnisation6555.GitWebApp'
-            azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
+            azure-devops-token: ${{ secrets.AZURE_TOKEN }}
